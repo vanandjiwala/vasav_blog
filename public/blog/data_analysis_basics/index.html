@@ -1,0 +1,1203 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "\/"
+        },
+        "articleSection" : "blog",
+        "name" : "Pandas using jupyter notebook",
+        "headline" : "Pandas using jupyter notebook",
+        "description" : "Pandas using jupyter notebook Prerequisites and basic setup  Install anaconda on your machine Open command prompt Navigate to your desired directory use command jupyter notebook to start the server In a web browser, hit http:\/\/localhost:8888\/ url to access jupyter notebook   Import statements  Import pandas and numpy to get started with basic data analysis  import numpy as np\rimport pandas as pd\rImport data visualization libraries  import matplotlib.",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2020",
+        "datePublished": "2020-04-19 00:00:00 \x2b0000 UTC",
+        "dateModified" : "2020-04-19 00:00:00 \x2b0000 UTC",
+        "url" : "\/blog\/data_analysis_basics\/",
+        "wordCount" : "209",
+        "keywords" : [ "Blog" ]
+    }
+    </script>
+        
+            
+                <title>Pandas using jupyter notebook</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.68.3" />
+        
+
+
+        
+            <meta name="author" content="Vasav">
+        
+        
+            
+                <meta name="description" content="Code enthusiast having more than 5 years of experience working on software projects in India and USA">
+            
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Pandas using jupyter notebook"/>
+<meta name="twitter:description" content="Pandas using jupyter notebook Prerequisites and basic setup  Install anaconda on your machine Open command prompt Navigate to your desired directory use command jupyter notebook to start the server In a web browser, hit http://localhost:8888/ url to access jupyter notebook   Import statements  Import pandas and numpy to get started with basic data analysis  import numpy as npimport pandas as pdImport data visualization libraries  import matplotlib."/>
+
+        <meta property="og:title" content="Pandas using jupyter notebook" />
+<meta property="og:description" content="Pandas using jupyter notebook Prerequisites and basic setup  Install anaconda on your machine Open command prompt Navigate to your desired directory use command jupyter notebook to start the server In a web browser, hit http://localhost:8888/ url to access jupyter notebook   Import statements  Import pandas and numpy to get started with basic data analysis  import numpy as npimport pandas as pdImport data visualization libraries  import matplotlib." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blog/data_analysis_basics/" />
+<meta property="article:published_time" content="2020-04-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-04-19T00:00:00+00:00" />
+
+        <meta property="og:image" content="//images/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        <meta itemprop="name" content="Pandas using jupyter notebook">
+<meta itemprop="description" content="Pandas using jupyter notebook Prerequisites and basic setup  Install anaconda on your machine Open command prompt Navigate to your desired directory use command jupyter notebook to start the server In a web browser, hit http://localhost:8888/ url to access jupyter notebook   Import statements  Import pandas and numpy to get started with basic data analysis  import numpy as npimport pandas as pdImport data visualization libraries  import matplotlib.">
+<meta itemprop="datePublished" content="2020-04-19T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-04-19T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="209">
+
+
+
+<meta itemprop="keywords" content="" />
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="/css/main.css">
+            <link rel="stylesheet" href="/css/add-on.css">
+            <link rel="stylesheet" href="/css/academicons.min.css">
+        
+
+        
+            
+                
+            
+        
+
+
+  
+    
+    <link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+  
+
+
+      
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="/">blog</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/">
+                            <i class="fa fa-home">&nbsp;</i>Home
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about/">
+                            <i class="fa fa-id-card-o">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/blog/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/">
+                            <h3>
+                                <i class="fa fa-home">&nbsp;</i>Home
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about/">
+                            <h3>
+                                <i class="fa fa-id-card-o">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/blog/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section class="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/setup_automagica/">Automation using automagica library</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2020-06-09'>
+                                    June 9, 2020</time>
+                            </header>
+                            
+    
+
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/vagrant_setup_django/">Vagrant server setup for django rest</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2020-06-02'>
+                                    June 2, 2020</time>
+                            </header>
+                            
+    
+
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/scrapy_101/">Web Scraping using python and scrapy</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2020-05-26'>
+                                    May 26, 2020</time>
+                            </header>
+                            
+    
+
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/data_analysis_basics/">Pandas using jupyter notebook</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2020-04-19'>
+                                    April 19, 2020</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/data_analysis_basics/" class="image featured">
+            <img src="/img/2020/04/pic02.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/python_notations/">Python Notations Quick Reference</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2020-04-15'>
+                                    April 15, 2020</time>
+                            </header>
+                            
+    
+
+    
+
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /blog/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+<li>
+  <a href="//twitter.com/share?url=%2fblog%2fdata_analysis_basics%2f&amp;text=Pandas%20using%20jupyter%20notebook&amp;via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=%2fblog%2fdata_analysis_basics%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=%2fblog%2fdata_analysis_basics%2f&amp;title=Pandas%20using%20jupyter%20notebook" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=%2fblog%2fdata_analysis_basics%2f&amp;title=Pandas%20using%20jupyter%20notebook" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=%2fblog%2fdata_analysis_basics%2f&amp;title=Pandas%20using%20jupyter%20notebook" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=%2fblog%2fdata_analysis_basics%2f&amp;description=Pandas%20using%20jupyter%20notebook" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Vasav&amp;body=%2fblog%2fdata_analysis_basics%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="/blog/data_analysis_basics/">Pandas using jupyter notebook</a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2020-04-19'>
+            April 19, 2020</time>
+        <span class="author">Vasav</span>
+        
+            <p>1 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+
+<li>
+  <a href="//twitter.com/share?url=%2fblog%2fdata_analysis_basics%2f&amp;text=Pandas%20using%20jupyter%20notebook&amp;via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=%2fblog%2fdata_analysis_basics%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=%2fblog%2fdata_analysis_basics%2f&amp;title=Pandas%20using%20jupyter%20notebook" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=%2fblog%2fdata_analysis_basics%2f&amp;title=Pandas%20using%20jupyter%20notebook" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=%2fblog%2fdata_analysis_basics%2f&amp;title=Pandas%20using%20jupyter%20notebook" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=%2fblog%2fdata_analysis_basics%2f&amp;description=Pandas%20using%20jupyter%20notebook" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Vasav&amp;body=%2fblog%2fdata_analysis_basics%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+      </ul>
+    </section>
+  
+
+  
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/data_analysis_basics/" class="image featured">
+            <img src="/img/2020/04/pic02.jpg" alt="">
+        </a>
+    
+
+
+  <div id="content">
+    <h1 id="pandas-using-jupyter-notebook">Pandas using jupyter notebook</h1>
+<h3 id="prerequisites-and-basic-setup">Prerequisites and basic setup</h3>
+<ol>
+<li><a href="https://problemsolvingwithpython.com/01-Orientation/01.03-Installing-Anaconda-on-Windows/">Install anaconda on your machine</a></li>
+<li>Open command prompt</li>
+<li>Navigate to your desired directory</li>
+<li>use command <code>jupyter notebook</code> to start the server</li>
+<li>In a web browser, hit <code>http://localhost:8888/</code> url to access jupyter notebook</li>
+</ol>
+<hr>
+<h3 id="import-statements">Import statements</h3>
+<ol>
+<li>Import <code>pandas</code> and <code>numpy</code> to get started with basic data analysis</li>
+</ol>
+<pre><code>import numpy as np
+import pandas as pd
+</code></pre><ol start="2">
+<li>Import data visualization libraries</li>
+</ol>
+<pre><code>import matplotlib.pyplot as plt
+import seaborn as sns
+%matplotlib inline
+</code></pre><ol start="3">
+<li>Import a csv file as a dataframe</li>
+</ol>
+<pre><code>df = pd.read_csv('file.csv')
+df = pd.read_csv('/path/file.csv')
+</code></pre><ol start="4">
+<li>Get <a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.info.html">data types and other information about the dataframe</a></li>
+</ol>
+<pre><code>df.info()
+</code></pre><ol start="5">
+<li><a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.head.html">View few initial rows from a dataframe</a></li>
+</ol>
+<pre><code>df.head()
+df.head(5) #returns top 5 rows
+</code></pre><ol start="6">
+<li><a href="https://www.geeksforgeeks.org/python-pandas-series-value_counts/">Obtain value count for a column/series</a></li>
+</ol>
+<pre><code>df['column name'].value_counts()
+df['column name'].value_counts().head(5) #gives top 5 values with max counts
+</code></pre><ol start="7">
+<li>Find unique count in a series. There are 2 ways to achieve this. One way is to use len method and other is to use nunique method.</li>
+</ol>
+<pre><code>count = len(df['column name'].unique())
+count = df['column name'].nunique()
+</code></pre><ol start="8">
+<li>Create a new column of an existing column using lambda expression</li>
+</ol>
+<pre><code># assume we have data as reason: text and we want to obtain reason from existing col.
+df['new col'] = df['exising col'].apply(lambda x: x.split(':')[0])
+df['new col'] #print the new column
+</code></pre><hr>
+<h3 id="data-visualization">Data Visualization</h3>
+<p><a href="https://www.datacamp.com/community/blog/seaborn-cheat-sheet-python">seaborn cheat sheet</a></p>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+        
+            
+            
+                <i class="fa fa-folder"></i>
+                
+                
+                <li><a class="article-category-link" href="/categories/data-analysis">Data Analysis</a></li>
+                
+                
+                <li><a class="article-category-link" href="/categories/python">python</a></li>
+                
+                
+                <li><a class="article-category-link" href="/categories/pandas">Pandas</a></li>
+                
+            
+        
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+        
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+
+</article>
+
+    <article class="post">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "shortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="/blog/python_notations/"
+                class="button big previous">Python Notations Quick Reference</a></li>
+    
+
+    
+        <li><a href="/blog/scrapy_101/"
+                class="button big next">Web Scraping using python and scrapy</a></li>
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='/'><img src="/img/main/logo.png" width="" alt="Hugo Future Imperfect" /></a>
+      
+    
+    
+      <header>
+        <h2>Vasav Anandjiwala</h2>
+        <p>Code enthusiast having more than 5 years of experience working on software projects in India and USA</p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+        
+  <li><a href="//github.com/vanandjiwala" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/vasav-anandjiwala" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//api.whatsapp.com/send?phone=%2b919426458245" target="_blank" title="WhatsApp" class="fa fa-whatsapp"></a></li>
+
+
+
+
+
+
+
+
+
+  <li><a href="//instagram.com/vanandjiwala" target="_blank" title="Instagram" class="fa fa-instagram"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:example" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section class="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/setup_automagica/">Automation using automagica library</a>
+              </h3>
+              
+              <time class="published" datetime='2020-06-09'>
+                June 9, 2020
+              </time>
+            </header>
+            
+    
+
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/vagrant_setup_django/">Vagrant server setup for django rest</a>
+              </h3>
+              
+              <time class="published" datetime='2020-06-02'>
+                June 2, 2020
+              </time>
+            </header>
+            
+    
+
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/scrapy_101/">Web Scraping using python and scrapy</a>
+              </h3>
+              
+              <time class="published" datetime='2020-05-26'>
+                May 26, 2020
+              </time>
+            </header>
+            
+    
+
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/data_analysis_basics/">Pandas using jupyter notebook</a>
+              </h3>
+              
+              <time class="published" datetime='2020-04-19'>
+                April 19, 2020
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/data_analysis_basics/" class="image featured">
+            <img src="/img/2020/04/pic02.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/python_notations/">Python Notations Quick Reference</a>
+              </h3>
+              
+              <time class="published" datetime='2020-04-15'>
+                April 15, 2020
+              </time>
+            </header>
+            
+    
+
+    
+
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /blog/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+  
+  
+    <section id="categories">
+      <header>
+        <h3>
+          <a href="/categories/">Categories</a>
+        </h3>
+      </header>
+        
+          
+        
+
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/python/">python</a>
+                <span style="float:right;">5</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/data-analysis/">data-analysis</a>
+                <span style="float:right;">4</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/automagica/">automagica</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/automation/">automation</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/hugo/">hugo</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/pandas/">pandas</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/rpa/">rpa</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+    </section>
+  
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h3>
+      <p>I have over 5 years of experience in software industry. I am a hobbyist wildlife photographer. I travel to various parts of India looking for wildlife and photographing them.</p>
+      <a href="/about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+        
+  <li><a href="//github.com/vanandjiwala" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/vasav-anandjiwala" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//api.whatsapp.com/send?phone=%2b919426458245" target="_blank" title="WhatsApp" class="fa fa-whatsapp"></a></li>
+
+
+
+
+
+
+
+
+
+  <li><a href="//instagram.com/vanandjiwala" target="_blank" title="Instagram" class="fa fa-instagram"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:example" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        &copy; 2020
+        
+          Vasav A
+        
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+      
+      
+      
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+        
+        
+        
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/css.min.js"></script>
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="/js/util.js"></script>
+      <script src="/js/main.js"></script>
+      <script src="/js/backToTop.js"></script>
+    
+
+    
+      
+        
+      
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>
+

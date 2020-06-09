@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pandas on Vasav A</title>
+    <link>/categories/pandas/</link>
+    <description>Recent content in Pandas on Vasav A</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/pandas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pandas using jupyter notebook</title>
+      <link>/blog/data_analysis_basics/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/data_analysis_basics/</guid>
+      <description>Pandas using jupyter notebook Prerequisites and basic setup  Install anaconda on your machine Open command prompt Navigate to your desired directory use command jupyter notebook to start the server In a web browser, hit http://localhost:8888/ url to access jupyter notebook   Import statements  Import pandas and numpy to get started with basic data analysis  import numpy as npimport pandas as pdImport data visualization libraries  import matplotlib.</description>
+    </item>
+    
+  </channel>
+</rss>

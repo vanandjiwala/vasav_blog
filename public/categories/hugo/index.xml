@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Vasav A</title>
+    <link>/categories/hugo/</link>
+    <description>Recent content in hugo on Vasav A</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installing Hugo On Windows</title>
+      <link>/blog/hugo/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/hugo/</guid>
+      <description>Installing Hugo On Windows Installation
+ Naviage to Hugo release page. Install Hugo version based on your OS. In my case I am using windows 10 - 64 bit. Create a folder in C drive named Hugo. Use can use any location ideally. Extract the downloaded Gugo zip file there. Go to start and type Environment varibale in order to make Hugo available from all locations through command line. Tutorial about the same can be found here.</description>
+    </item>
+    
+  </channel>
+</rss>

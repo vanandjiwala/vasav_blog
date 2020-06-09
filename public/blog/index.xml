@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Vasav A</title>
+    <link>/blog/</link>
+    <description>Recent content in Blog on Vasav A</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automation using automagica library</title>
+      <link>/blog/setup_automagica/</link>
+      <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/setup_automagica/</guid>
+      <description>Prerequisites  Python must be installed in the machine If python is not installed then follow the instruction in this video Make sure to add python in environment variables  Installing automagica library using PIP   automagica has their python library which can be installed using pip install automagica command. Reference for the command can be found here.
+  This command will install all the required libraries to support automagica.</description>
+    </item>
+    
+    <item>
+      <title>Vagrant server setup for django rest</title>
+      <link>/blog/vagrant_setup_django/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/vagrant_setup_django/</guid>
+      <description>Installing Vagrant server There are 2 requirements to setup vagrant server
+ Install vagrant Install Virtualbox  youtube reference for the same can be found here.
+ Setting up vagrant box  Navigate to root of the django project Copy the vagrant file provided in the github repo Use command vagrant up to set up the virtual box Once processing is done then you are all set to test your app on virtual box Use command vagrant ssh to ssh into the newly created virtual box Naviagate to vagrant directory using command cd /vagrant/.</description>
+    </item>
+    
+    <item>
+      <title>Web Scraping using python and scrapy</title>
+      <link>/blog/scrapy_101/</link>
+      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/scrapy_101/</guid>
+      <description>Setting up Scrapy  Python: 3.6 Create a virtual environment Activate the virtual environment install Scrapy using command pip install scrapy  This is all we need to up and running with scrapy.
+ Exploring Scrapy In the terminal type scrapy in order to get the available commands associated with scrapy
+Here is the list of available commands
+ bench - Run quick benchmark test fetch - Fetch a URL using the Scrapy downloader genspider - Generate new spider using pre-defined templates runspider - Run a self-contained spider (without creating a project) settings - Get settings values shell - Interactive scraping console startproject - Create new project version - Print Scrapy version view - Open URL in browser, as seen by Scrapy   Creating a Project As per the above section, we will use startproject command to create a new project.</description>
+    </item>
+    
+    <item>
+      <title>Pandas using jupyter notebook</title>
+      <link>/blog/data_analysis_basics/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/data_analysis_basics/</guid>
+      <description>Pandas using jupyter notebook Prerequisites and basic setup  Install anaconda on your machine Open command prompt Navigate to your desired directory use command jupyter notebook to start the server In a web browser, hit http://localhost:8888/ url to access jupyter notebook   Import statements  Import pandas and numpy to get started with basic data analysis  import numpy as npimport pandas as pdImport data visualization libraries  import matplotlib.</description>
+    </item>
+    
+    <item>
+      <title>Python Notations Quick Reference</title>
+      <link>/blog/python_notations/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/python_notations/</guid>
+      <description>Quick Overview and Tips  Resources  stackoverflow - slice notation slice and indexing for lists in python   Syntax  a[start:stop] #items start through stop-1 a[start:] # items start through the rest of the array a[:stop] # items from the beginning through stop-1 a[:] # a copy of the whole array   Python basics  Lists: Mutable. Value in a list can be changed with bracket notation. Tuple: Imutable.</description>
+    </item>
+    
+    <item>
+      <title>Installing Hugo On Windows</title>
+      <link>/blog/hugo/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/hugo/</guid>
+      <description>Installing Hugo On Windows Installation
+ Naviage to Hugo release page. Install Hugo version based on your OS. In my case I am using windows 10 - 64 bit. Create a folder in C drive named Hugo. Use can use any location ideally. Extract the downloaded Gugo zip file there. Go to start and type Environment varibale in order to make Hugo available from all locations through command line. Tutorial about the same can be found here.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -13,7 +13,7 @@ canonifyURLs = true
 
 [params]
   # Sets the meta tag description
-  description          = "Code enthusiast having more than 5 years of experience working on software projects in India and USA"
+  description          = "Data Engineer at Rightsense Inc.(California)"
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "Vasav Anandjiwala"
   # Sets where "View More Posts" links
@@ -89,9 +89,9 @@ canonifyURLs = true
 [params.intro]
   header    = "Vasav Anandjiwala"
 
-  paragraph = "Code enthusiast having more than 5 years of experience working on software projects in India and USA"
+  paragraph = "Data Engineer | Photographer | Traveller" 
 
-  about     = "I have over 5 years of experience in software industry. I am a hobbyist wildlife photographer. I travel to various parts of India looking for wildlife and photographing them."
+  about     = "I am a data engineer with more than 7 years of experience in the software industry. I started my career as a system analyst (QA automation) and eventually switched to software development. I am a wildlife photographer with keen interest in wildlife conservation and research."
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
@@ -170,10 +170,10 @@ canonifyURLs = true
     # WeChat and QQ need testing.
     wechat         = ""
     qq             = "" # User ID Number
-  instagram        = "vanandjiwala"
+  instagram        = ""
   tumblr           = ""
-  twitter          = ""
-  skype            = ""
+  twitter          = "vanandjiwala"
+  skype            = "vasav.anandjiwala_2"
   snapchat         = ""
   pinterest        = ""
   telegram         = ""

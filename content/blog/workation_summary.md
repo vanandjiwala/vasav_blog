@@ -1,12 +1,12 @@
++++
 author = "Vasav"
 categories = ["travel","india","backpacking","solo"]
-date = "2021-11-04"
-description = "Himachal Workation locations with their pros and cons"
+date = "2020-11-04"
+description = ""
 featuredpath = "date"
 linktitle = ""
 title = "Himachal Workation - Summary"
 type = "post"
-
 +++
 
 ## Himachal Workation Summary

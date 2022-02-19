@@ -1,12 +1,13 @@
 +++
 author = "Vasav"
 categories = ["photography"]
-date = "2021-02-19"
+date = "2022-02-19"
 description = "An article on my experience sighting the grey ghost of the Himalayas"
 featuredpath = "date"
 linktitle = ""
 title = "Snow Leopard Expedition - Kibber"
 type = "post"
+
 +++
 
 

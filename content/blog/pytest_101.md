@@ -13,16 +13,16 @@ type = "post"
 
 pytest is a testing framework for the python programming language. Based on the official [documentation](https://docs.pytest.org/en/6.2.x/index.html) - ```pytest makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries```.
 
-In this article, I am going to include some basic features of pytest. As I learn more about the framework, I will continue to add more posts around the same topic. 
+In this article, I am going to include some basic features of pytest. As I learn more about the framework, I will continue to add more posts around the same topic.
 
-Pytest can be used in variery of tests which includes frontend, backend, unit testing etc. 
+Pytest can be used in a variety of tests which include frontend, backend, unit testing, etc.
 
 ## How pytest detects test cases
 1. test file starts with ```test_```. Example: ```test_sum.py```
 2. test file ends with ```_test```. Example: ```sum_test.py```
 * Important thing to note here is, ```pytest``` finds file in the current directory as well as subdirectories. 
 3. test files can have ```classes``` or ```functions```.
-4. For ```class```, do not imclude ```__init__()```
+4. For ```class```, do not include ```__init__()```
 5. ```Functions``` should also start with ```test_```
 6. For ```class```, the name must start with ```Test``` and the method name must start with ```test_```. 
 
@@ -41,7 +41,7 @@ def test_tc02():
 
 ```pytest -m <marker name>```
 
-In the example below, regression is the marker. So in order to run regression, use the following command
+In the example below, regression is the marker. So in order to run regression, use the following command:
 
 ```pytest -m regression```
 

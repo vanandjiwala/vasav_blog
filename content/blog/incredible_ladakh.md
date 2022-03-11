@@ -1,7 +1,7 @@
 +++
 author = "Vasav"
 categories = ["photography"]
-date = "2021-12-12"
+date = "2022-03-12"
 description = "Incredible Ladakh Photo Series - 2018"
 featuredpath = "date"
 linktitle = ""

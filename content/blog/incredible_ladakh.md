@@ -13,46 +13,41 @@ type = "post"
 ## Ladakh 2018
 I visited Ladakh in June 2018 for wildlife photography. I started my trip from Leh and then visited places like Pangong tso, Hanle and Tso kar. It was one hell of a trip in which we spent most of the time in the field. We were able to capture birds and mammals of ladakh. This post will be a quick photo series. I will include more details if possible in future.
 
-![alt text](https://drive.google.com/uc?export=view&id=1en8tcERhuw3JdOPnRc_EgehZrfhEAHmY)
-
-**Somewhere Around Leh**
-
-![alt text](https://drive.google.com/uc?export=view&id=1-ekH9s_Ghfh6HXJTGoYUvbLvs7klmtHA)
-
+![alt text](https://drive.google.com/uc?export=view&id=1rsTHsec51JmDFZIZ2ezj6PRFJ4BxdSj-)
 **Red Fox**
 
-![alt text](https://drive.google.com/uc?export=view&id=1oYr_sFcPli_LHaBILdgMWukITNNbUpna)
+![alt text](https://drive.google.com/uc?export=view&id=1MYspd2wQJ-aKbFQENpaSWMNENSof0m_6)
 
 **Somewhere around Hanle**
 
-![alt text](https://drive.google.com/uc?export=view&id=1e5TzfJhX9vPpLkiJLor_UkfLB_kJxPPN)
+![alt text](https://drive.google.com/uc?export=view&id=1W5MRoNeOX4P3P1FRLmAd3qOJWgUBf-zr)
 
 **Hanle**
 
-![alt text](https://drive.google.com/uc?export=view&id=1CO4Oj5850L_r9C9z5VwaIMLuAU6Wb5hg)
+![alt text](https://drive.google.com/uc?export=view&id=1_Qba2j9J-3C8rmxKt2AvIaUm1jYmOWuh)
 
 **Fire Fronted Serin**
 
-![alt text](https://drive.google.com/uc?export=view&id=11yredpV_KRfM1yrdIA7GZgv3sh7_mszL)
+![alt text](https://drive.google.com/uc?export=view&id=14qLlm5YYjkrBgk9xhuuvohgRdHSqIPUl)
 
 **Little Owl**
 
-![alt text](https://drive.google.com/uc?export=view&id=16ipb6N7rqcU1ef-QqEbxM0D8Elj09XCo)
+![alt text](https://drive.google.com/uc?export=view&id=1nQMAPoz_gVr98gGKO4hCrD2A4GiP7Odb)
 
 **Tso kar**
 
-![alt text](https://drive.google.com/uc?export=view&id=1OWPM8I9zqzSRwp22MtS2tVIhfRzXnRoW)
+![alt text](https://drive.google.com/uc?export=view&id=1IgipLP67aVOjGVfnBjSP7iNTygGvA_Ro)
 
 **Groundpecker**
 
-![alt text](https://drive.google.com/uc?export=view&id=15zHyOhNYyYHcdWySNXpgW4pgUK27-OxZ)
+![alt text](https://drive.google.com/uc?export=view&id=1Z6FZou82z_GBlzHtQBgSBbHbSzQkY0eQ)
 
 **Kiang**
 
-![alt text](https://drive.google.com/uc?export=view&id=1GNs72PgsAQEs3-9-yVcb3kR-MXV915pc)
+![alt text](https://drive.google.com/uc?export=view&id=10Zif-hqTyteH3ordVq0ytO_hDGsiWTaa)
 
 **Upland Buzzard**
 
-![alt text](https://drive.google.com/uc?export=view&id=1F7Hkwf7R-e_3ALarHX7WIHWWEL7fogCq)
+![alt text](https://drive.google.com/uc?export=view&id=1TXRSHZhoSYtdZYC-nbsUNe6_QL6UkLqv)
 
 **Snowcock**

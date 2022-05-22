@@ -7,9 +7,7 @@ featuredpath = "date"
 linktitle = ""
 title = "Scala 101"
 type = "post"
-
 +++
-
 
 ## Installation
 

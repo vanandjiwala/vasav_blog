@@ -1,7 +1,7 @@
 +++
 author = "Vasav"
-categories = ["python","aws]
-date = "2022-07-05"
+categories = ["python","aws"]
+date = "2022-07-19"
 description = "Setting up AWS Lambda Function"
 featuredpath = "date"
 linktitle = ""

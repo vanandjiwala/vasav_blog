@@ -2,10 +2,10 @@
 author = "Vasav"
 categories = ["scala"]
 date = "2022-06-15"
-description = "Basics of Scala - 2"
+description = "Pattern Matching, Tuples, Option and Functions"
 featuredpath = "date"
 linktitle = ""
-title = "Scala 101"
+title = "Scala - Pattern Matching, Tuples, Option and Functions"
 type = "post"
 +++
 

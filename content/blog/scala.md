@@ -2,10 +2,10 @@
 author = "Vasav"
 categories = ["scala"]
 date = "2022-05-22"
-description = "Basics of Scala"
+description = "Types, variables, Loops, Conditional Statements"
 featuredpath = "date"
 linktitle = ""
-title = "Scala 101"
+title = "Basics of Scala"
 type = "post"
 +++
 

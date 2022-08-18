@@ -1,6 +1,6 @@
 +++
 author = "Vasav"
-categories = ["Data Analysis","python","Pandas"]
+categories = ["data-analysis","python","Pandas"]
 date = "2020-04-19"
 description = ""
 featured = "pic02.jpg"

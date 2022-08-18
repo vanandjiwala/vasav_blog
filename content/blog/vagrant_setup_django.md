@@ -1,6 +1,6 @@
 +++
 author = "Vasav"
-categories = ["python","data-analysis"]
+categories = ["python","devops"]
 date = "2020-06-02"
 description = ""
 featuredpath = "date"

@@ -1,6 +1,6 @@
 +++
 author = "Vasav"
-categories = ["hugo"]
+categories = ["miscellaneous"]
 date = "2020-04-02"
 description = ""
 featured = "pic02.jpg"

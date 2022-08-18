@@ -1,6 +1,6 @@
 +++
 author = "Vasav"
-categories = ["python","automation","rpa"]
+categories = ["python","automation"]
 date = "2021-11-23"
 description = "Robot Framework Setup"
 featuredpath = "date"

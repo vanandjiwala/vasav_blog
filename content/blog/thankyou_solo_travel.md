@@ -1,6 +1,6 @@
 +++
 author = "Vasav"
-categories = ["travel","india","backpacking","solo"]
+categories = ["travel"]
 date = "2020-10-24"
 description = "Thank you fellow travellers - You are special"
 featuredpath = "date"

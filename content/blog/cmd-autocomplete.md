@@ -1,6 +1,6 @@
 +++
 author = "Vasav"
-categories = ["Troubleshooting"]
+categories = ["miscellaneous"]
 date = "2022-01-29"
 description = ""
 featuredpath = "date"

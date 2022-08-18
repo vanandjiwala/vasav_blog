@@ -1,6 +1,6 @@
 +++
 author = "Vasav"
-categories = ["travel","india"]
+categories = ["travel"]
 date = "2021-11-27"
 description = "Just about my journey"
 featuredpath = "date"

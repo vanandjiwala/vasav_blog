@@ -38,15 +38,15 @@ ___
 
 Rightsense is a startup based in Cupertino, California which provides data/analytics platform for the US retail domain. As a software engineer, I am involved in backend data processing, developing ETL pipelines, cleaning up data, monitoring and maintaining data related schedulers and jobs. I have been extensively using **python**, **SQL**, **apache spark** on **databricks** and **AWS**. Worked closely with the data team to discuss various data related issues and decide key performance indicators which are important for the application. 
 
-- Led QA activities, automation testing and performance testing projects
-- Documented test plan, strategy documents for functional, performance and automation testing
-- Designed and maintained test cases for the SaaS platform
-- Performed functional testing and regression testing on the system and designed automation scripts
-- Utilized software development kit (SDK) to create and execute API tests
-- Experimented with freeswitch PBX and SIPp to establish call simulation mechanism for performance testing
-- Setup environment and executed performance testing on the system to determine system bottlenecks
-- Coordinated with the engagement team to understand production issues, translated those issues to communicate with developers and logged bugs
-- Technologies/Tools: Python, node, protractor, SIPp, XML
+- Designed and developed ETL pipelines using databricks platforms
+- Performed database migration from mariadb to singlestore
+- Engineered a framework to execute and monitor ETLs
+- Utilized AWS lambda functions for processing data
+- Coordinated with business teams to gather reporting requirements
+- Built an internal reporting tool to generate custom reports based on the client requirements
+- Maintained and optimized existing ETL jobs
+- Create mock data mechanism for database compatibility testing and application development
+- Technologies/Tools: Python, scala, spark, databricks, AWS, docker, vagrant
 
 **Awaaz de Infosystems Pvt. Ltd. – GJ,India**  
 **QA Engineer II**  

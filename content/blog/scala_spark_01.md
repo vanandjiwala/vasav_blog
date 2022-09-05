@@ -126,15 +126,7 @@ In order to check the data, we will use the ```display``` method.
 ```
 display(df_salaries)
 ```
-
-|   _c0   |   _c1        |   _c2               |   _c3              |   _c4                         |   _c5     |   _c6              |   _c7            |   _c8                 |   _c9           |   _c10              |   _c11          |
-|---------|--------------|---------------------|--------------------|-------------------------------|-----------|--------------------|------------------|-----------------------|-----------------|---------------------|-----------------|
-|   null  |   work_year  |   experience_level  |   employment_type  |   job_title                   |   salary  |   salary_currency  |   salary_in_usd  |   employee_residence  |   remote_ratio  |   company_location  |   company_size  |
-|   0     |   2020       |   MI                |   FT               |   Data Scientist              |   70000   |   EUR              |   79833          |   DE                  |   0             |   DE                |   L             |
-|   1     |   2020       |   SE                |   FT               |   Machine Learning Scientist  |   260000  |   USD              |   260000         |   JP                  |   0             |   JP                |   S             |
-|   2     |   2020       |   SE                |   FT               |   Big Data Engineer           |   85000   |   GBP              |   109024         |   GB                  |   50            |   GB                |   M             |
-|   3     |   2020       |   MI                |   FT               |   Product Data Analyst        |   20000   |   USD              |   20000          |   HN                  |   0             |   HN                |   S             |
-|   4     |   2020       |   SE                |   FT               |   Machine Learning Engineer   |   150000  |   USD              |   150000         |   US                  |   50            |   US                |   L             |
+![alt text](https://drive.google.com/uc?export=view&id=10qwXhgxdTBafO9X7bsJ3GD5_dAU7uHQP)
 
 
 Now if you look at this closely, you can see that the columns names are not considered  while reading the file. In order to change this,we have to use ```option``` while reading the dataframe.
@@ -143,16 +135,9 @@ Now if you look at this closely, you can see that the columns names are not cons
 val df_salaries = spark.read.format("csv").option("header", true).load("/FileStore/tables/Demo1/ds_salaries.csv")
 ```
 
-Here, we are telling spark to consider top row as the header. So when we display the dataframe we will have our columns.
+![alt text](https://drive.google.com/uc?export=view&id=1xZ-9NvmoD5JVjBlk0gzcJsdJ1twhWR9f)
 
-|   _c0  |   work_year  |   experience_level  |   employment_type  |   job_title                   |   salary  |   salary_currency  |   salary_in_usd  |   employee_residence  |   remote_ratio  |   company_location  |   company_size  |
-|--------|--------------|---------------------|--------------------|-------------------------------|-----------|--------------------|------------------|-----------------------|-----------------|---------------------|-----------------|
-|   0    |   2020       |   MI                |   FT               |   Data Scientist              |   70000   |   EUR              |   79833          |   DE                  |   0             |   DE                |   L             |
-|   1    |   2020       |   SE                |   FT               |   Machine Learning Scientist  |   260000  |   USD              |   260000         |   JP                  |   0             |   JP                |   S             |
-|   2    |   2020       |   SE                |   FT               |   Big Data Engineer           |   85000   |   GBP              |   109024         |   GB                  |   50            |   GB                |   M             |
-|   3    |   2020       |   MI                |   FT               |   Product Data Analyst        |   20000   |   USD              |   20000          |   HN                  |   0             |   HN                |   S             |
-|   4    |   2020       |   SE                |   FT               |   Machine Learning Engineer   |   150000  |   USD              |   150000         |   US                  |   50            |   US                |   L             |
-|   5    |   2020       |   EN                |   FT               |   Data Analyst                |   72000   |   USD              |   72000          |   US                  |   100           |   US                |   L             |
+Here, we are telling spark to consider top row as the header. So when we display the dataframe we will have our columns.
 
 ### Database Schema
 Schema represnets the column name and data types. It is essential to understand the data before performing transformation operations on the data. ```printschema()``` method is used to get the schema of the dataframe.

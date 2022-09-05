@@ -1,6 +1,6 @@
 +++
 author = "Vasav"
-categories = ["scala", "spark"]
+categories = ["scala","spark"]
 date = "2022-09-06"
 description = "Basics of spark with scala"
 featuredpath = "date"

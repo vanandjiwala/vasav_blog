@@ -21,6 +21,8 @@ Consider a new retail store which is open in your neighborhood. In the early day
 
 In order to counter this issue, we have to use a cluster/group of machines (More than one machine working in harmony to accomplish the task/data processing). A framework which coordinates and make sure the tasks are being performed without issue is required and Apache spark does just that. Cluster of machibes which spark uses to execute tasks are managed by cluster managers like ```Yarn``` or ```Mesos```.
 
+___
+
 ## Spark Architecture
 
 Any spark application contains of two major components. 
@@ -83,7 +85,7 @@ In dataframe,we do not need to specify partitions. Spark will take care of doing
 
 ___
 
-### Transformations and actions
+## Transformations and actions
 
 In spark, the core data structures are immutable, in other words they can not be modified after creation. For instance, a spark dataframe once created can not be changed. This may sound a bit weird but after understanding ```transfaormations``` and ```actions``` togather, it will be more clear. 
 
@@ -99,7 +101,7 @@ Here are some examples of actions which are commonly used:
 
 There is another concept associated with transformation which I want to mention here:
 1. Narrow transformations - Here one partition on transformation will produce just one output partition ```1 -> 1```. In narrow transformation, the operation happens in memory and hence it is faster.
-2. Wide transformatons - Here one partion on transform will produce n output partitions ```1 -> n```. Wide transformation produces more partitions, so intermediate data needs to be stored in disk so this results in a slower operation. This is also referred to as ```shuffling```
+2. Wide transformatons - Here one partion on transform will produce n output partitions ```1 -> n```. Wide transformation produces more partitions, so intermediate data needs to be stored in disk so this results in a slower operation. This is also referred to as ```shuffling```.
 
 ___
 

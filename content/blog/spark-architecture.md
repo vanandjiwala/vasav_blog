@@ -110,3 +110,4 @@ ___
 2. https://spark.apache.org/docs/latest/cluster-overview.html
 3. https://data-flair.training/blogs/how-apache-spark-works/#:~:text=Just%20like%20Hadoop%20MapReduce%2C%20it,in%20its%20own%20Java%20process.
 4. https://sparkbyexamples.com/pyspark-tutorial/#features
+5. https://www.databricks.com/glossary/what-are-transformations

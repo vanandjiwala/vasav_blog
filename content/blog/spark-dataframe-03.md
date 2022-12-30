@@ -10,7 +10,7 @@ type = "post"
 +++
 
 ## Introduction
-This article with cover various ways of selecting and renaming columns in spark dataframe. For the demo, we are going to use [Auto-mpg dataset](https://www.kaggle.com/datasets/uciml/autompg-dataset?resource=download) avaiolable from kaggle.
+This article with cover various ways of selecting columns in spark dataframe. For the demo, we are going to use [Auto-mpg dataset](https://www.kaggle.com/datasets/uciml/autompg-dataset?resource=download) available from kaggle.
 
 Code is available on my [github](https://github.com/vanandjiwala/pyspark-examples/blob/main/select-example-pyspark.ipynb). Feel free to download and play around with it.
 

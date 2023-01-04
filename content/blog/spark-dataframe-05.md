@@ -1,7 +1,7 @@
 +++
 author = "Vasav"
 categories = ["spark","python"]
-date = "2023-01-02"
+date = "2023-01-04"
 description = "Data manipulation methods in pyspark"
 featuredpath = "date"
 linktitle = ""

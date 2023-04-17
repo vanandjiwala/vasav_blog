@@ -12,7 +12,7 @@ type = "post"
 ## Introduction
 In this article, I am going to provide few helper functions which can be used for various data engineering tasks. I will keep appending new functions with time.
 
-## Funding a primary key from a dataframe
+## Finding a primary key from a dataframe
 I use the following function to look for the primary key. This is perticulary useful when you are trying to understand a new datasource and performing EDA.
 
 ```

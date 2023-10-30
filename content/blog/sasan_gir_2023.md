@@ -30,7 +30,11 @@ There are many options to stay at Sasan gir. Important factor to consider is to 
 ## Sightings
 *COMING SOON*
 
-## Photos capptured in the trip
+## Photography
+
+*TIPS AND TRICKS - COMING SOON*
+
+![alt text](https://drive.google.com/uc?export=view&id=1Xy1UOnXWAIXnh6LS2grMOs6BsWGrQbz7)
 
 ![alt text](https://drive.google.com/uc?export=view&id=1kdri6mHhWDyQP-UPG-SjZOfMOtPjqFzX)
 

@@ -34,6 +34,8 @@ As someone who works with data, learning SQL is super important. It's like the A
 2. [pgexercises](https://pgexercises.com/)
 3. [Live SQL - Oracle](https://livesql.oracle.com/apex/f?p=590:1000)
 4. [analystbuilder](https://www.analystbuilder.com/questions)
+5. [dataford](https://www.dataford.io/)
+6. [interviewquery](https://www.interviewquery.com/)
 
 ## Blog Posts
 1. [DB datetime tips](https://www.mssqltips.com/sqlservertip/1145/date-and-time-conversions-using-sql-server/)

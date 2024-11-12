@@ -9,5 +9,5 @@ title = "Prompt Engineering Notes"
 type = "post"
 +++
 
-![alt text](https://drive.google.com/uc?export=view&id=1NFVK4PqD7Z-eJNviHMLwLrH8TjrmoOCo)
+![alt text](https://github.com/vanandjiwala/vasav_blog/blob/master/public/img/blog/LLM_PROMPT_ENGINEERING.png?raw=true)
 **Notes**

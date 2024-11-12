@@ -62,8 +62,13 @@ While my technique is somewhat traditional, I'm open to experimentation. One app
 
 Remember, wildlife photography is an ever-evolving journey. Stay curious, be patient, and embrace the unpredictability of the wild.
 
-![alt text](https://github.com/vanandjiwala/vasav_blog/blob/master/public/img/blog/0B7A5512_low.png?raw=true)
+![alt text](https://github.com/vanandjiwala/vasav_blog/blob/master/public/img/blog/0B7A5512_low.jpg?raw=true)
 
+![alt text](https://github.com/vanandjiwala/vasav_blog/blob/master/public/img/blog/0B7A0343_low.jpg?raw=true)
+
+![alt text](https://github.com/vanandjiwala/vasav_blog/blob/master/public/img/blog/0B7A0400_low.jpg?raw=true)
+
+![alt text](https://github.com/vanandjiwala/vasav_blog/blob/master/public/img/blog/0B7A5755_low.jpg?raw=true)
 
 Copyright © Vasav Anandjiwala [2023]. All rights reserved.
 

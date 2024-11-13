@@ -117,6 +117,9 @@ Sentiment:
 ```
 
 3. Chain of Thought(COT) Prompts
+- Improves model's reasoning ability
+- It allows to decompose the problem into smaller steps to get to the result
+Example:
 ```
 I want to paint my bedroom walls. The room is 12 feet long, 10 feet wide, and 8 feet high. There are two windows, each 3 feet by 4 feet, and one door that is 3 feet by 7 feet. How much paint do I need to buy? Please explain your reasoning step by step.
 ```

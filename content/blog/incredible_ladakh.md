@@ -13,9 +13,6 @@ type = "post"
 ## Ladakh 2018
 I visited Ladakh in June 2018 for wildlife photography. I started my trip from Leh and then visited places like Pangong tso, Hanle and Tso kar. It was one hell of a trip in which we spent most of the time in the field. We were able to capture birds and mammals of ladakh. This post will be a quick photo series. I will include more details if possible in future.
 
-**Around Leh**
-![alt text](/img/ladakh/IMG_4686.jpg)
-
 **Red Fox**
 
 ![alt text](/img/ladakh/IMG_5860.jpg)

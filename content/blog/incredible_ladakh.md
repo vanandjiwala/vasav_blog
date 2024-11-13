@@ -13,41 +13,44 @@ type = "post"
 ## Ladakh 2018
 I visited Ladakh in June 2018 for wildlife photography. I started my trip from Leh and then visited places like Pangong tso, Hanle and Tso kar. It was one hell of a trip in which we spent most of the time in the field. We were able to capture birds and mammals of ladakh. This post will be a quick photo series. I will include more details if possible in future.
 
-![alt text](https://drive.google.com/uc?export=view&id=1rsTHsec51JmDFZIZ2ezj6PRFJ4BxdSj-)
+**Around Leh**
+![alt text](/img/ladakh/IMG_4686.jpg)
+
 **Red Fox**
 
-![alt text](https://drive.google.com/uc?export=view&id=1MYspd2wQJ-aKbFQENpaSWMNENSof0m_6)
+![alt text](/img/ladakh/IMG_5860.jpg)
 
 **Somewhere around Hanle**
 
-![alt text](https://drive.google.com/uc?export=view&id=1W5MRoNeOX4P3P1FRLmAd3qOJWgUBf-zr)
+![alt text](/img/ladakh/IMG_6894.jpg)
 
 **Hanle**
 
-![alt text](https://drive.google.com/uc?export=view&id=1_Qba2j9J-3C8rmxKt2AvIaUm1jYmOWuh)
+![alt text](/img/ladakh/IMG_6641.jpg)
 
 **Fire Fronted Serin**
 
-![alt text](https://drive.google.com/uc?export=view&id=14qLlm5YYjkrBgk9xhuuvohgRdHSqIPUl)
+![alt text](/img/ladakh/IMG_6989.jpg)
 
 **Little Owl**
 
-![alt text](https://drive.google.com/uc?export=view&id=1nQMAPoz_gVr98gGKO4hCrD2A4GiP7Odb)
+![alt text](/img/ladakh/IMG_7293.jpg)
 
 **Tso kar**
 
-![alt text](https://drive.google.com/uc?export=view&id=1IgipLP67aVOjGVfnBjSP7iNTygGvA_Ro)
+![alt text](/img/ladakh/IMG_7673.jpg)
 
 **Groundpecker**
 
-![alt text](https://drive.google.com/uc?export=view&id=1Z6FZou82z_GBlzHtQBgSBbHbSzQkY0eQ)
+![alt text](/img/ladakh/IMG_7886.jpg)
 
 **Kiang**
 
-![alt text](https://drive.google.com/uc?export=view&id=10Zif-hqTyteH3ordVq0ytO_hDGsiWTaa)
+![alt text](/img/ladakh/IMG_7935.jpg)
 
 **Upland Buzzard**
 
-![alt text](https://drive.google.com/uc?export=view&id=1TXRSHZhoSYtdZYC-nbsUNe6_QL6UkLqv)
+![alt text](/img/ladakh/IMG_7983.jpg)
 
 **Snowcock**
+![alt text](/img/ladakh/IMG_8110.jpg)

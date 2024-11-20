@@ -13,6 +13,21 @@ type = "post"
 
 In the last article, I covered the data warehouse architecture. In order to leverage data warehouse to its full potential and get most out of the data, data modeling becomes a crucial part. Dimensional modeling is a very popular choice for analytical data loads. It is widely popular due to performance improvements over transactional/normalized data and also it makes it very easy to understand the data. Due to the simplicity, it also helps to deliver business value quickly. Essentially dimensional data is contains the same information as a normalized data model but organized differently in order to achieve better query performance and ease of use.
 
+## TL;DR
+
+1. Facts: Something which can be measured or aggregated. Example: Sales
+2. Dimension: Give context to the facts. Example: Month, Period, Product etc.
+
+```
+- Sales By Month
+- Sales By Period
+- Sales By Prodict
+```
+
+Here **By** indicates dimension.
+
+3. Star schema: Primarily used in data warehouse (dwh). Optimized for faster retrieval of data for better performance and usability.
+
 ## Star Schema
 
 Dimensional model which we will see in more detail very soon can be implmented in RDBMS which is called as "star schema". In the star schema, a fact will take the center stage and all the dimensions associated with that fact are going to form a star like structure. Due to that it is called star schema.
@@ -88,9 +103,10 @@ JOIN cashier_dim d ON s.cashier_id = d.cashier_id;
   This is one of the most common dimension and this requires a dedicated post on this. But this dimension table can answer important comparison points like sales happend this month, year, week vs last month, year, week. YTD sales, MTD sales etc which are some common use case. Depending on the sector, things may change a little but time is an essential dimention in most of the business.
 
 ## Next steps
-We are just scratching the surface around dimensional modeling. I will give one in depth walk thorugh a dimensional process and a quick proto type will for sure give a clear picture in your head. 
 
-Next post, i am planning to dedicate on the facts where i will describe various type of facts and most of the examples are going to be around retail domain as I have experinece working in that domain and it is a little easier for someone to understand the business processes and directly or indirectly we have been part of the retail. So for ease, we will stick to that domain and when applicable i will give other appropriate examples. 
+We are just scratching the surface around dimensional modeling. I will give one in depth walk thorugh a dimensional process and a quick proto type will for sure give a clear picture in your head.
+
+Next post, i am planning to dedicate on the facts where i will describe various type of facts and most of the examples are going to be around retail domain as I have experinece working in that domain and it is a little easier for someone to understand the business processes and directly or indirectly we have been part of the retail. So for ease, we will stick to that domain and when applicable i will give other appropriate examples.
 
 ## Resources
 

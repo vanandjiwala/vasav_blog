@@ -10,7 +10,7 @@
 
     {{ if (not .Params.disable_highlight) }}
       {{ $highVer := .Site.Params.highlightjsVersion }}
-      {{ $highCDN := (.Site.Params.highlightjsCDN | default "//cdn.bootcss.com") }}
+      {{ $highCDN := (.Site.Params.highlightjsCDN | default "https://cdnjs.cloudflare.com/ajax/libs") }}
       {{ if (not (eq $highVer "")) }}
         <script src="{{ $highCDN }}/highlight.js/{{ $highVer }}/highlight.min.js"></script>
         {{ $.Scratch.Set "highLangs" .Site.Params.highlightjsLang }}

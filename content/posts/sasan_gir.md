@@ -1,6 +1,6 @@
 ---
 author: ["Vasav Anandjiwala"]
-title: "sasan gir safari"
+title: "Sasan Gir Safari"
 date: "2023-10-30"
 description: "sasan gir safari"
 summary: "sasan gir safari"

@@ -8,7 +8,7 @@ tags: ["data engineering"]
 categories: ["data engineering"]
 series: ["data engineering"]
 cover:
-image: images/clickhouse.png
+  image: images/clickhouse.png
 ShowToc: true
 TocOpen: true
 social:

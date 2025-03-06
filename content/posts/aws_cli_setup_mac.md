@@ -4,9 +4,9 @@ title: "AWS Cli Setup on Macbook with M1 chipset"
 date: "2023-03-10"
 description: "AWS Cli Setup on macbook with ARM chipset."
 summary: "AWS Cli Setup on macbook with ARM chipset."
-tags: ["aws", "cloud"]
-categories: ["cloud"]
-series: ["cloud computing"]
+tags: ["aws"]
+categories: ["aws"]
+series: ["aws"]
 cover:
   image: images/aws_cli.svg
 ShowToc: true

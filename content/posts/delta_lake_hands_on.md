@@ -1,9 +1,9 @@
 ---
 author: ["Vasav Anandjiwala"]
-title: "how delta lake works"
+title: "How Delta Lake Works?"
 date: "2025-03-22"
-description: "Hands on with delta lake with databricks"
-summary: "Hands on with delta lake with databricks"
+description: "Hands on with delta lake with databricks."
+summary: "Hands on with delta lake with databricks."
 tags: ["data engineering", "delta-lake"]
 categories: ["data engineering", "delta-lake"]
 series: ["data engineering"]
@@ -41,7 +41,7 @@ Delta lake tables consists of multiple components:
 
 ## Notebook Code
 
-Code explained in this article can be found on github
+Code explained in this article can be found on [github](https://github.com/vanandjiwala/python_notebooks/tree/main/delta-lake).
 
 ## Creating a delta table
 
@@ -160,14 +160,14 @@ You can see an additional record for update present in the history.
 
 ### Delete operation
 
-Use the following command to perform delete operation
+Use the following command to perform delete operation.
 
 ```
 DELETE FROM point_of_sale
 WHERE sale_id = 15;
 ```
 
-**What actually happens on an update operation**
+**What actually happens on an delete operation**
 
 1. Delta Lake starts by reading the delta log.
 2. Delta Lake determines which Parquet files contain the records that match the delete condition.
@@ -188,7 +188,7 @@ Let us observe the files in the table. All files are intact and new files are ad
 | dbfs:/user/hive/warehouse/point_of_sale/part-00000-b71d79b4-1f35-4f2b-86f9-321e1b787b2c-c000.snappy.parquet | part-00000-b71d79b4-1f35-4f2b-86f9-321e1b787b2c-c000.snappy.parquet | 1749 | 1742622855000    |
 | dbfs:/user/hive/warehouse/point_of_sale/part-00000-b89992ce-bedd-48be-9ddb-ee74469b366d-c000.snappy.parquet | part-00000-b89992ce-bedd-48be-9ddb-ee74469b366d-c000.snappy.parquet | 1756 | 1742622850000    |
 
-History associated with the table history
+History associated with the table.
 
 | version | timestamp                     | operation         | operationParameters                                                                                                 |
 | ------- | ----------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------- |

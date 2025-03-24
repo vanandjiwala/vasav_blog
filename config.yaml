@@ -246,5 +246,3 @@ services:
     disableInlineCSS: true
   twitter:
     disableInlineCSS: true
-  googleAnalytics:
-    id: G-56CC37G457

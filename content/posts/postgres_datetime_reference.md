@@ -4,9 +4,9 @@ title: "Postgres Cheatsheet for date and time handling"
 date: "2025-03-11"
 description: "Postgres datetime cheatsheet"
 summary: "Postgres datetime cheatsheet"
-tags: ["data engineering"]
-categories: ["data engineering"]
-series: ["data engineering"]
+tags: ["Data Engineering"]
+categories: ["Data Engineering"]
+series: ["Data Engineering"]
 ShowToc: true
 TocOpen: true
 social:

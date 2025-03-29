@@ -4,9 +4,9 @@ title: "Using S3 to invoke AWS Lambda"
 date: "2022-07-19"
 description: "Setting up AWS Lambda Function"
 summary: "Setting up AWS Lambda Function"
-tags: ["aws"]
-categories: ["aws"]
-series: ["aws"]
+tags: ["AWS"]
+categories: ["AWS"]
+series: ["AWS"]
 cover:
   image: images/aws_cli.svg
 ShowToc: true

@@ -1,14 +1,14 @@
 ---
 author: ["Vasav Anandjiwala"]
-title: "what is delta lake in databricks"
+title: "What is delta lake in databricks?"
 date: "2025-03-20"
 description: "Understanding Delta Lake"
 summary: "Understanding Delta Lake Basics"
-tags: ["data engineering", "delta-lake"]
-categories: ["data engineering", "delta-lake"]
-series: ["data engineering"]
+tags: ["Data Engineering", "Delta Lake"]
+categories: ["Data Engineering", "Delta Lake"]
+series: ["Data Engineering"]
 cover:
-  image: images/2-tier-architecture.png
+  image: images/delta_lake.png
 ShowToc: true
 TocOpen: true
 social:

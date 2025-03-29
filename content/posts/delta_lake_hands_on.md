@@ -4,9 +4,9 @@ title: "How Delta Lake Works?"
 date: "2025-03-22"
 description: "Hands on with delta lake with databricks."
 summary: "Hands on with delta lake with databricks."
-tags: ["data engineering", "delta-lake"]
-categories: ["data engineering", "delta-lake"]
-series: ["data engineering"]
+tags: ["Data Engineering", "Delta Lake"]
+categories: ["Data Engineering", "Delta Lake"]
+series: ["Data Engineering"]
 cover:
   image: images/delta_lake.png
 ShowToc: true

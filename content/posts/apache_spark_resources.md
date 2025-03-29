@@ -4,9 +4,9 @@ title: "Apache Spark Resources"
 date: "2025-03-28"
 description: "Articles, blogs and doumentation list for apache spark"
 summary: "Articles, blogs and doumentation list for apache spark"
-tags: ["data engineering", "apache spark"]
-categories: ["data engineering", "apache spark"]
-series: ["data engineering"]
+tags: ["Data Engineering", "Apache Spark"]
+categories: ["Data Engineering", "Apache Spark"]
+series: ["Data Engineering"]
 cover:
   image: images/apache_spark.png
 ShowToc: true

@@ -4,8 +4,8 @@ title: "Overview Of Unity Catalog"
 date: "2025-02-08"
 description: "This article describes the basic concepts and terms around unity catalog."
 summary: "This article describes the basic concepts and terms around unity catalog."
-tags: ["Unity Catalog"]
-categories: ["Unity Catalog"]
+tags: ["Unity Catalog", "Databricks", "Data Engineering"]
+categories: ["Unity Catalog", "Databricks", "Data Engineering"]
 series: ["Unity Catalog"]
 cover:
   image: images/unity_catalog.png

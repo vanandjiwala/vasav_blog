@@ -4,9 +4,9 @@ title: "Pyspark Structured APIs - Dataframes"
 date: "2022-06-04"
 description: "Pyspark dataframe basics"
 summary: "Pyspark dataframe basics"
-tags: ["data engineering"]
-categories: ["data engineering"]
-series: ["data engineering"]
+tags: ["Data Engineering"]
+categories: ["Data Engineering"]
+series: ["Data Engineering"]
 cover:
   image: images/apache_spark.png
 ShowToc: true

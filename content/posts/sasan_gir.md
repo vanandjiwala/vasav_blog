@@ -4,9 +4,9 @@ title: "Sasan Gir Safari"
 date: "2023-10-30"
 description: "sasan gir safari"
 summary: "sasan gir safari"
-tags: ["travel"]
-categories: ["travel"]
-series: ["travel"]
+tags: ["Travel"]
+categories: ["Travel"]
+series: ["Travel"]
 cover:
   image: images/wildlife/0B7A5512_low.jpg
 ShowToc: true

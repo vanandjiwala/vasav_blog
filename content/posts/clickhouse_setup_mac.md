@@ -4,9 +4,9 @@ title: "Setup Clickhouse on Mac"
 date: "2024-07-28"
 description: "Setup datawarehouse on local machine for development and testing"
 summary: "Setup datawarehouse on local machine for development and testing"
-tags: ["data engineering"]
-categories: ["data engineering"]
-series: ["data engineering"]
+tags: ["Data Engineering"]
+categories: ["Data Engineering"]
+series: ["Data Engineering"]
 cover:
   image: images/clickhouse.png
 ShowToc: true

@@ -4,9 +4,9 @@ title: "Creating pyspark dataframes using python data structures"
 date: "2022-07-25"
 description: "Pyspark dataframe basics"
 summary: "Pyspark dataframe basics"
-tags: ["data engineering"]
-categories: ["data engineering"]
-series: ["data engineering"]
+tags: ["Data Engineering"]
+categories: ["Data Engineering"]
+series: ["Data Engineering"]
 cover:
   image: images/apache_spark.png
 ShowToc: true

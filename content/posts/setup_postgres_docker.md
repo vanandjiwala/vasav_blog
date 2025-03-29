@@ -4,9 +4,9 @@ title: "Setting up PostgreSQL using docker"
 date: "2024-05-06"
 description: "Setting up postgreSql instance on local machine using docker"
 summary: "PostgreSQL using docker"
-tags: ["data engineering"]
-categories: ["data engineering"]
-series: ["data engineering"]
+tags: ["Data Engineering"]
+categories: ["Data Engineering"]
+series: ["Data Engineering"]
 cover:
   image: images/postgres-docker.png
 ShowToc: true

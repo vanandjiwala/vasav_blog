@@ -4,9 +4,9 @@ title: "Pandas using jupyter notebook"
 date: "2023-10-30"
 description: "Basics of python pandas to get started with the library and jupyter notebook"
 summary: "Pandas using jupyter notebook"
-tags: ["pandas"]
-categories: ["pandas"]
-series: ["pandas"]
+tags: ["Pandas"]
+categories: ["Pandas"]
+series: ["Pandas"]
 cover:
   image: images/pandas-python.webp
 ShowToc: true

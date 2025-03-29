@@ -4,9 +4,9 @@ title: "how to setup apache spark on windows"
 date: "2024-05-06"
 description: "Setting up apache spark on windows"
 summary: "Setting up apache spark on windows using docker"
-tags: ["data engineering"]
-categories: ["data engineering"]
-series: ["data engineering"]
+tags: ["Data Engineering"]
+categories: ["Data Engineering"]
+series: ["Data Engineering"]
 cover:
   image: images/postgres-docker.png
 ShowToc: true

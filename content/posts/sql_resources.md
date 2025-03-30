@@ -27,6 +27,7 @@ As someone who works with data, learning SQL is super important. It's like the A
 6. [8weeksqlchallenge](https://8weeksqlchallenge.com/)
 7. [mode](https://mode.com/sql-tutorial/introduction-to-sql)
 8. [datalemur](https://datalemur.com/sql-tutorial)
+9. [freedatacamp](https://freedatacamp.org/course/mysql-by-examples-for-beginners/)
 
 ## Video Tutorials
 

@@ -4,9 +4,9 @@ title: "Selecting and renaming dataframes in pyspark"
 date: "2022-12-28"
 description: "Pyspark dataframe basics"
 summary: "Pyspark dataframe basics"
-tags: ["Data Engineering"]
-categories: ["Data Engineering"]
-series: ["Data Engineering"]
+tags: ["Data Engineering", "Apache Spark"]
+categories: ["Data Engineering", "Apache Spark"]
+series: ["Data Engineering", "Apache Spark"]
 cover:
   image: images/apache_spark.png
 ShowToc: true

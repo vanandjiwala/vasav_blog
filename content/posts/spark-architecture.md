@@ -4,9 +4,9 @@ title: "Apache Spark Architecture"
 date: "2022-10-08"
 description: "Apache Spark Architecture Overview"
 summary: "Apache Spark Architecture Overview"
-tags: ["Data Engineering"]
-categories: ["Data Engineering"]
-series: ["Data Engineering"]
+tags: ["Data Engineering", "Apache Spark"]
+categories: ["Data Engineering", "Apache Spark"]
+series: ["Data Engineering", "Apache Spark"]
 cover:
   image: images/apache_spark.png
 ShowToc: true

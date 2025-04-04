@@ -5,8 +5,8 @@ date: "2022-11-21"
 description: "Pyspark supported data sources"
 summary: "Pyspark supported data sources which includes csv, parquet, json, ORC etc."
 tags: ["Data Engineering"]
-categories: ["Data Engineering"]
-series: ["Data Engineering"]
+categories: ["Data Engineering", "Apache Spark"]
+series: ["Data Engineering", "Apache Spark"]
 cover:
   image: images/apache_spark.png
 ShowToc: true

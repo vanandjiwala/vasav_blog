@@ -47,7 +47,7 @@ These components can be categorized into two groups:
 
 pache Spark is a distributed computing engine developed at UC Berkeley, which processes data in-memory. Databricks was created by the original developers of Apache Spark, addressing infrastructure and maintenance challenges associated with Spark through a unified platform.
 
-Apache Spark itself is an extensive topic. Databricks simplifies Spark usage by providing an easy-to-use ecosystem for processing data. I have a separate series about apache spark which you can find [here](http://localhost:1313/tags/data-engineering/).
+Apache Spark itself is an extensive topic. Databricks simplifies Spark usage by providing an easy-to-use ecosystem for processing data. I have a separate series about apache spark which you can find [here](https://vasav.co.in/tags/data-engineering/).
 
 ## Getting started with databricks
 

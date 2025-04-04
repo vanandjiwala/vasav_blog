@@ -4,7 +4,7 @@ title: "Why Databricks?"
 date: "2025-03-24"
 description: "What databricks offers as a platform and how it fits in the data eco system?"
 summary: "What databricks offers as a platform and how it fits in the data eco system?"
-tags: ["Data Engineering", "Delta Lake"]
+tags: ["Data Engineering", "Databricks"]
 categories: ["Data Engineering", "Databricks"]
 series: ["Data Engineering"]
 cover:

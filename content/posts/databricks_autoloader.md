@@ -178,6 +178,63 @@ There are format specific and general options available based on the use case. I
 
 ### Autoloader
 
+Autoloader is another mechanism to load incremental data. Autoloader uses spark structured streaming behind the scenes to process incremental data. Autoloader uses a checkpoint location and uses RockDB to store metadata around the processed files. autoloader can handle millions of files per hour and can operate seamlessly at the scale of billions of files as per the documentation. So databricks recommends using this over `COPY INTO`. In case of a failure, autoloader can identify the unprocessed files through checkpoint location and based on that it can process the unprocessed files.
+
+Autoloader operates on 2 modes to detect files in the desired location:
+
+1. Directory Listing Mode - Based on the checkpoint and listing, new files are detected.
+2. File Notification Mode - New files are detected based on the events triggered and queue services. Based on these, the files are processed.
+
+Directory listing mode is the default mode which is ideal for smaller workloads. For a large scaled operations it is recommended to use file notification mode for better performance.
+
+### Tutorial
+
+We are going to follow the exact same tutorial in case of autoloader. Let us get started with databricks community edition. Make sure to start a cluster and have a notebook ready.
+
+```
+dbutils.fs.ls("/FileStore/tables/matches/")
+
+%sql
+CREATE TABLE matches_autoloader;
+
+df = spark.readStream.format("cloudFiles").option("cloudfiles.Format", "csv").option("cloudFiles.schemaLocation","/FileStore/tables/schema/matches").load("/FileStore/tables/matches/")
+
+#.trigger(availableNow=True)
+df.writeStream.option("checkpointLocation", "/FileStore/tables/checkpoint/matches").option("mergeSchema", "true").table("matches_autoloader").awaitTermination()
+
+%sql
+SELECT MAX(date) FROM matches_autoloader;
+
+dbutils.fs.ls("/FileStore/tables/checkpoint/matches")
+```
+
+Here we are creating a table first and then reading the data from the desired location. Here is the high level code description
+
+- `format(cloudFiles)` indicates autoloader
+- `cloudFiles.schemaLocation` is used to schema
+- `load` contains the path from which data needs to be fetched.
+
+High level of explaination for `writeStream`
+
+- `checkpointLocation` - place where autoloader keeps track of the files processed. In case you delete this location or change this, all files will be reprocessed.
+- `mergeschema` - set to true for schema evolution
+
+There are multiple `trigger` mechanism which i would like to cover in the next post to restrict the length of the post.
+
+So like streaming, autoloader takes the unprocessed data and then write it to the desired location along with the status of files processed using checkpoint location.
+
+## Conclusion
+
+By using autoloader and copy into command, we can perform incremental data processing on the databricks platform. More or less then work the same way but for better performance and scalability, it is recommended to use the autoloader functionality.
+
+## Next steps
+
+In the next blog post, I will cover the triggers and options associated with structured streaming. Also how these autoloader can fit into Medallion architecture.
+
 ## References
 
 1. [COPY INTO](https://docs.databricks.com/aws/en/sql/language-manual/delta-copy-into#format-options)
+2. [What is Auto Loader?](https://docs.databricks.com/aws/en/ingestion/cloud-object-storage/auto-loader)
+3. [What is Auto Loader file notification mode?](https://docs.databricks.com/aws/en/ingestion/cloud-object-storage/auto-loader/file-notification-mode)
+4. [What is Auto Loader directory listing mode?](https://docs.databricks.com/aws/en/ingestion/cloud-object-storage/auto-loader/directory-listing-mode)
+5. [https://aeshantechhub.co.uk/](https://aeshantechhub.co.uk/databricks-autoloader-advanced-techniques-and-best-practices/)

@@ -1,14 +1,14 @@
 ---
 author: ["Vasav Anandjiwala"]
-title: "how to setup apache spark on windows"
-date: "2024-05-06"
+title: "How to install apache spark on windows"
+date: "2023-05-05"
 description: "Setting up apache spark on windows"
-summary: "Setting up apache spark on windows using docker"
+summary: "Setting up apache spark on windows"
 tags: ["Data Engineering"]
 categories: ["Data Engineering"]
 series: ["Data Engineering"]
 cover:
-  image: images/postgres-docker.png
+  image: images/apache_spark.png
 ShowToc: true
 TocOpen: true
 social:

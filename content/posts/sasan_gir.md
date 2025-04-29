@@ -73,9 +73,9 @@ While my technique is somewhat traditional, I'm open to experimentation. One app
 
 Remember, wildlife photography is an ever-evolving journey. Stay curious, be patient, and embrace the unpredictability of the wild.
 
-![alt text](https://vasav.co.in/images/wildlife/0B7A5512_low.jpg)
+{{< instagram C7CRUuuSsjh >}}
 
-Copyright © Vasav Anandjiwala [2023]. All rights reserved.
+{{< instagram CzJbrgmIF_4 >}}
 
 All photographs on this blog are the property of Vasav Anandjiwala and are protected by international copyright laws. These photographs should not be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the owner.
 

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vasav A | Senior Data Engineer",
+  title: "Vasav Anandjiwala | Senior Data Engineer",
   description: "Architecting high-performance data platforms for analytics and AI. Proven track record in building scalable data lakehouses, optimizing ETL pipelines, and delivering cost-effective solutions on modern data stacks.",
 };
 

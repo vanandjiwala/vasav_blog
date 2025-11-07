@@ -447,7 +447,7 @@ const menuItems = [
     { name: 'Projects', href: '#projects' },
     { name: 'Certificates', href: '#certificates' },
     { name: 'Blog', href: 'https://dataloader.substack.com/', external: true },
-    { name: 'Gallery', href: '/gallery', external: true },
+    { name: 'Gallery', href: '/gallery' },
     { name: 'Contact', href: '#contact' },
 ]
 

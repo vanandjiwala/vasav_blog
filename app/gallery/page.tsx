@@ -34,7 +34,7 @@ export default function GalleryPage() {
             <main className="pt-16 lg:pt-20">
                 <section className="py-16 md:py-24">
                     <div className="mx-auto max-w-7xl px-6">
-                        <h1 className="text-4xl font-semibold mb-12 text-center">Gallery</h1>
+                        <h1 className="text-4xl font-semibold mb-12 text-center">Photography</h1>
 
                         {/* Masonry Grid */}
                         <div className="columns-1 sm:columns-2 lg:columns-3 gap-8">

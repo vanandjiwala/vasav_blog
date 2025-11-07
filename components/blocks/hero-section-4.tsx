@@ -5,8 +5,9 @@ import { Button } from '@/components/ui/button'
 import { InfiniteSlider } from '@/components/ui/infinite-slider'
 import { ProgressiveBlur } from '@/components/ui/progressive-blur'
 import ExperienceTimeline from '@/components/ui/experience-timeline'
+import { Feature } from '@/components/ui/feature-section-with-grid'
 import { cn } from '@/lib/utils'
-import { Menu, X, Linkedin, Github, Instagram, BookOpen } from 'lucide-react'
+import { Menu, X, Linkedin, Github, Instagram, BookOpen, Mail, MapPin } from 'lucide-react'
 import {
     SiPython,
     SiApachespark,
@@ -284,26 +285,155 @@ export function HeroSection() {
                 </div>
 
                 {/* Projects Section */}
-                <section id="projects" className="py-16 md:py-24">
-                    <div className="mx-auto max-w-6xl px-6 text-center">
-                        <h2 className="text-3xl font-semibold mb-6">Projects</h2>
-                        <p className="text-muted-foreground text-lg">Coming soon...</p>
-                    </div>
+                <section id="projects">
+                    <Feature />
                 </section>
 
                 {/* Certificates Section */}
-                <section id="certificates" className="bg-muted/30 py-16 md:py-24">
-                    <div className="mx-auto max-w-6xl px-6 text-center">
-                        <h2 className="text-3xl font-semibold mb-6">Certificates</h2>
-                        <p className="text-muted-foreground text-lg">Coming soon...</p>
+                <section id="certificates" className="py-16 md:py-24">
+                    <div className="mx-auto max-w-6xl px-6">
+                        <h2 className="text-3xl font-semibold mb-12 text-center">Certificates</h2>
+                        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8 items-center justify-items-center">
+                            <div className="flex items-center justify-center h-48">
+                                <a
+                                    href="https://credentials.databricks.com/e671ef07-51bf-48ef-ae80-970243d7d8d2#acc.xTD9kVNC"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="h-full transition-transform hover:scale-105"
+                                >
+                                    <img
+                                        src="/ai-agent-fundamentals.png"
+                                        alt="AI Agent Fundamentals"
+                                        className="h-full w-auto object-contain"
+                                    />
+                                </a>
+                            </div>
+                            <div className="flex items-center justify-center h-48">
+                                <a
+                                    href="https://credentials.databricks.com/ef635082-0f1d-419f-9f19-b99ae5bc1df3#acc.f4plKRZT"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="h-full transition-transform hover:scale-105"
+                                >
+                                    <img
+                                        src="/genai-fundamentals.png"
+                                        alt="Generative AI Fundamentals"
+                                        className="h-full w-auto object-contain"
+                                    />
+                                </a>
+                            </div>
+                            <div className="flex items-center justify-center h-48">
+                                <a
+                                    href="https://credentials.databricks.com/22392f72-7c6b-4130-b979-2c9638468741#acc.x6Zdy1Ao"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="h-full transition-transform hover:scale-105"
+                                >
+                                    <img
+                                        src="/lakehouse-fundamentals.png"
+                                        alt="Lakehouse Fundamentals"
+                                        className="h-full w-auto object-contain"
+                                    />
+                                </a>
+                            </div>
+                            <div className="flex items-center justify-center h-48">
+                                <a
+                                    href="https://credentials.databricks.com/5129be43-7cdb-41af-b6f9-464ef6885c38"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="h-full transition-transform hover:scale-105"
+                                >
+                                    <img
+                                        src="/spark.png"
+                                        alt="Spark Developer Associate"
+                                        className="h-full w-auto object-contain"
+                                    />
+                                </a>
+                            </div>
+                            <div className="flex items-center justify-center h-48">
+                                <a
+                                    href="https://credentials.databricks.com/37064aa7-73bc-4570-9e74-db95d1796dfd#acc.DS4fT68z"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="h-full transition-transform hover:scale-105"
+                                >
+                                    <img
+                                        src="/databricks-fundamentals.png"
+                                        alt="Databricks Fundamentals"
+                                        className="h-full w-auto object-contain"
+                                    />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </section>
 
                 {/* Contact Us Section */}
-                <section id="contact" className="py-16 md:py-24">
-                    <div className="mx-auto max-w-6xl px-6 text-center">
-                        <h2 className="text-3xl font-semibold mb-6">Contact Us</h2>
-                        <p className="text-muted-foreground text-lg">Coming soon...</p>
+                <section id="contact" className="bg-muted/30 py-16 md:py-24">
+                    <div className="mx-auto max-w-6xl px-6">
+                        <h2 className="text-3xl font-semibold mb-12 text-center">Contact Us</h2>
+                        <div className="grid gap-12 lg:grid-cols-2">
+                            <div className="flex items-center justify-center lg:justify-start">
+                                <iframe
+                                    src="https://dataloader.substack.com/embed"
+                                    width="480"
+                                    height="320"
+                                    style={{border: "1px solid #EEE", background: "white"}}
+                                    frameBorder="0"
+                                    scrolling="no"
+                                    title="Subscribe to Dataloader Newsletter"
+                                ></iframe>
+                            </div>
+                            <div className="flex items-center justify-center lg:justify-start">
+                                <div className="space-y-6">
+                                    <div>
+                                        <h3 className="text-2xl font-semibold mb-6">Get in Touch</h3>
+                                        <p className="text-muted-foreground mb-6">
+                                            Available for consulting and collaboration opportunities.
+                                        </p>
+                                    </div>
+
+                                    <div className="space-y-4">
+                                        <div className="flex items-center gap-3">
+                                            <Mail className="h-5 w-5 text-primary" />
+                                            <a
+                                                href="mailto:vasav.anandjiwala@gmail.com?subject=Consulting%20Inquiry&body=Hi%20Vasav,%0A%0AI%20would%20like%20to%20discuss..."
+                                                className="text-foreground hover:text-primary transition-colors"
+                                            >
+                                                vasav.anandjiwala@gmail.com
+                                            </a>
+                                        </div>
+
+                                        <div className="flex items-center gap-3">
+                                            <MapPin className="h-5 w-5 text-primary" />
+                                            <span className="text-foreground">India</span>
+                                        </div>
+                                    </div>
+
+                                    <div className="pt-4">
+                                        <p className="text-sm text-muted-foreground mb-3">Connect with me:</p>
+                                        <div className="flex gap-4">
+                                            <Link
+                                                href="https://linkedin.com/in/vasav-anandjiwala"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="text-muted-foreground hover:text-primary transition-all hover:scale-110"
+                                                aria-label="LinkedIn Profile">
+                                                <Linkedin className="h-6 w-6" />
+                                            </Link>
+                                            <Link
+                                                href="https://www.instagram.com/vasav2203/"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="text-muted-foreground hover:text-primary transition-all hover:scale-110"
+                                                aria-label="Instagram Profile">
+                                                <Instagram className="h-6 w-6" />
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </main>
